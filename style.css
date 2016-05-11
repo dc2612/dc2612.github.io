@@ -1,0 +1,124 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+  position: relative;
+  height: 550px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  margin-top: 23%;
+  padding: 0 12.5%;
+}
+
+.steveJobs {
+    margin-top: 18.18%;
+  height: 420px;
+  width: auto;
+  transform: rotateY(180deg);
+  float: right
+}
+
+p.quote {
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #666666;
+  margin-left: 1%;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #000;
+  content: " ";
+  width: 130px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.timeline {
+  margin: 5% 2% 0 2%;
+}
+
+b:before,
+ {
+  content: " ";
+  margin-right: 0.8%;
+}
+
+li {
+  margin-bottom: 1.5%;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.end {
+  margin: .2% 0 2% 5%;
+}
+
+a.button {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #333333;
+ text-decoration: none;
+  font-size: 1.2em;
+  color: #333333;
+  border: 2px solid black;
+  border-radius: 5px;
+  transition: all 0.3s ease-in;   
+ padding: 5px;
+}
+
+
+
+.button:hover {
+  background-color: #333333;
+  color: white;
+  border: 2px solid transparent;
+}
+@media only screen and (max-width: 500px) {
+  .main-header {
+    margin: 50% 0 0 2%;
+  }
+  .main-text {
+    padding: 0 24.5%;
+  }
+  .quote {
+    padding: 0 8%;
+  }
+  .steveJobs {
+    height: 250px;
+    margin: -78% 23% 0 0;
+  }
+  li {
+
+      text-align: left;
+    margin-bottom: 2%;
+    }
+  .end {padding: 1% 2%}
+  .button {
+   padding: 1% 40%;
+  }
+  li {
+    word-spacing: .12em;
+    line-height: 1.43em;
+  }
+}
