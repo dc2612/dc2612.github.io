@@ -220,12 +220,14 @@ h2 {
     top: 50px;
 }
 .follow {
-    font-size: 93px;
+    font-size: 5.813em;
     color: #2D2D2D;
     letter-spacing: 1px;
     text-shadow: 18px 2px 60px rgba(0,0,0,0.35);
     top: 80px;
-    left: 41.5%;
+    left: 450px;
+    text-align: center;
+
 }
 .social-box {
     width: 75%;
